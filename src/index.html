@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub User Search</title>
+    <link rel="stylesheet" href="../dist/output.css">
+</head>
+<body>
+    <header class="bg-red-500 px-5">
+        <div class="container mx-auto py-2">
+            <h1 class="text-2xl font-bold">GitHub User Search</h1>
+        </div>
+    </header>
+    <div class="container mx-auto mt-10">
+        <div class="mx-auto bg-red-400 flex w-fit p-2 gap-2 rounded-full">
+            <input type="text" placeholder="Enter a user" class="max-w-[24rem] rounded-full px-4 text-lg">
+            <input type="submit" value="Find" class="font-semibold cursor-pointer">
+        </div>
+    </div>
+    <div class="w-fit mx-auto rounded-2xl mt-10 bg-red-200 p-10 flex items-center justify-center">
+        <div class="flex justify-center gap-5 flex-col md:flex-row items-center md:items-start">
+            <div>
+                <img src="" alt="Profile photo" class="avatar w-28 h-28 rounded-full ring ring-blue-600 ring-offset-4">
+            </div>
+            <div class="max-w-[18rem]">
+                <div>
+                    <p class="name font-semibold text-2xl leading-none"></p>
+                    <p class="username leading-none border-b-2 pb-2 border-red-500"></p>
+                    <p class="bio mt-2 border-b-2 pb-2 border-red-500"></p>
+                    <p class="followers mt-2 border-b-2 pb-2 border-red-500"></p>
+                    <p class="repositories mt-2 border-b-2 pb-2 border-red-500"></p>
+                    <a href="#" target="_blank" class="url mt-2 inline-block text-blue-800 underline"></a>
+            </div>
+        </div>
+    </div>
+
+    <script src="../dist/js/script.js"></script>
+</body>
+</html>
