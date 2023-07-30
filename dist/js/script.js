@@ -21,8 +21,8 @@ async function fetchUser(search){
     bio.innerHTML = res.bio || 'No available';
     followers.innerHTML = res.followers + ' followers' || 'No available';
     repositories.innerHTML = res.public_repos + ' repositories' || 'No available';;
-    url.innerHTML = res.blog;
-    url.href = res.blog;
+    url.innerHTML = res.html_url;
+    url.href = res.html_url;
 }
 
 submit.addEventListener('click', () => {
